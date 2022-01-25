@@ -1,0 +1,62 @@
+.custom-checkbox{
+    margin-left: 10px;
+}
+
+.custom-control-label{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: 600;
+}
+.modal-content{
+    min-width: 560px; 
+    min-height: 300px;
+}
+.error{
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.table .thead-maroon th {
+    color: var(--secondary_font_color);
+    background-color: var(--primary_background_color);
+    border-color: var(--primary_background_color);
+}
+.table {
+    border: solid 1px #A9A9A9 !important;
+}
+td {
+    border-bottom: solid 1px #A9A9A9 !important;
+}
+.btn-outline-maroon {
+    color: var(--primary_font_color);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--primary_background_color) !important;
+    font-weight: 500 !important;
+}
+
+    .btn-outline-maroon:hover {
+        color: var(--secondary_font_color);
+        background-color: var(--primary_background_color);
+        border-color: var(--primary_background_color);
+    }
+
+    .btn-outline-maroon.disabled, .btn-outline-maroon:disabled {
+        color: black;
+        background-color: white;
+    }
+.modal-header {
+    background-color: var(--primary_background_color);
+}
+
+
+.bg-maroon {
+    background-color: var(--primary_background_color) !important;
+}
+.bg-goldenrod {
+    background-color: var(--secondary_background_color) !important;
+}
+.context-menu-icon.context-menu-icon--fa::before {
+    color: var(--primary_background_color) !important;
+}
